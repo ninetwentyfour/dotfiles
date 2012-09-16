@@ -12,9 +12,14 @@ function prompt_char {
     echo '○'
 }
 
-# function battery_charge {
-#     echo `$BAT_CHARGE` 2>/dev/null
-# }
+function battery_charge {
+	if [ -e ~/bin/batcharge.py ]
+	then
+		echo `python ~/bin/batcharge.py`;
+	else
+		echo "%{$fg[red]%}¬%{$reset_color%}";
+	fi
+}
 
 function virtualenv_info {
     [ $VIRTUAL_ENV ] && echo '('`basename $VIRTUAL_ENV`') '
@@ -36,8 +41,7 @@ PROMPT='
 %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
 $(virtualenv_info)$(prompt_char) '
 
-# RPROMPT='$(battery_charge)'
-RPROMPT="%{$fg[red]%}¬%{$reset_color%}"
+RPROMPT='$(battery_charge)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
