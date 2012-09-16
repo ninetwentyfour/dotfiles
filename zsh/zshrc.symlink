@@ -10,7 +10,7 @@ export ZSH_THEME="prose"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # requires `brew install highlight`
-plugins=(git compleat ruby rails3 zsh-syntax-highlighting zsh-output-highlighting)
+plugins=(git compleat ruby rails3 textmate zsh-syntax-highlighting zsh-output-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
