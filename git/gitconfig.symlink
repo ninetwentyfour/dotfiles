@@ -1,0 +1,24 @@
+# Sample gitconfig
+#
+# You probably want to change the [user] section here since you are not me.
+
+[hub]
+        protocol = https
+[user]
+        name = Travis Berry
+        email = contact@travisberry.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+[apply]
+        whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
