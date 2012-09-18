@@ -29,4 +29,3 @@ alias rld!='. ~/.zshrc'
 # colorify aliases
 alias memcached='colourify memcached'
 alias bundle='colourify bundle'
-
