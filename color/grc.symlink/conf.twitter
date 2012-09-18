@@ -3,6 +3,11 @@ regexp=(?<=\<)(.*?)(?=\>)
 colours=magenta
 count=more
 =====
+# twitter mentions
+regexp=@([A-Za-z0-9_]+)
+colours=yellow
+count=more
+=====
 # hashtags
 regexp=#([A-Za-z0-9_]+)
 colours=blue
