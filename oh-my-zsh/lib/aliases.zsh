@@ -25,7 +25,10 @@ alias afind='ack-grep -il'
 alias reload!='. ~/.zshrc'
 alias rld!='. ~/.zshrc'
 
+alias twitter='colourify ttytter -ansi -dostream'
 
-# colorify aliases
+
+# colorify aliases for grc and colored output
 alias memcached='colourify memcached'
 alias bundle='colourify bundle'
+alias twitter='colourify ttytter -ansi -dostream'

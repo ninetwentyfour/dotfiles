@@ -1,0 +1,14 @@
+# main user name
+regexp=(?<=\<)(.*?)(?=\>)
+colours=magenta
+count=more
+=====
+# hashtags
+regexp=#([A-Za-z0-9_]+)
+colours=blue
+count=more
+=====
+# urls
+regexp=(http|https|www)\S+
+colours=green
+count=more
