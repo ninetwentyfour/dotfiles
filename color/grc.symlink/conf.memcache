@@ -1,0 +1,15 @@
+# Memcache
+# GET
+regexp=^.*GET.*$
+colours=yellow
+count=more
+=====
+# SET
+regexp=^.*SET.*$
+colours=green
+count=more
+=====
+# Deleting
+regexp=^.*Deleting.*$
+colours=red
+count=more

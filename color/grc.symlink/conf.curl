@@ -37,3 +37,11 @@ count=more
 regexp=\:\s(null),?$
 colours=default, bold red
 count=more
+# Memcache
+regexp=GET
+colours=red
+count=more
+#
+regexp=PING
+colours=red
+count=more

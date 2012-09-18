@@ -23,4 +23,10 @@ alias sl=ls # often screw this up
 alias afind='ack-grep -il'
 
 alias reload!='. ~/.zshrc'
+alias rld!='. ~/.zshrc'
+
+
+# colorify aliases
+alias memcached='colourify memcached'
+alias bundle='colourify bundle'
 
