@@ -28,5 +28,5 @@ alias rld!='. ~/.zshrc'
 
 # colorify aliases for grc and colored output
 alias memcached='colourify memcached'
-alias bundle='colourify bundle'
+# alias bundle='colourify bundle'
 alias twitter='colourify ttytter -ansi -dostream'
