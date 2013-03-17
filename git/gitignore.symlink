@@ -4,3 +4,10 @@ vendor/bundle
 *~
 *.swp
 *.rbc
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+public/assets/
+.env
+ssl/
