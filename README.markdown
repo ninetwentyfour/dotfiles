@@ -13,7 +13,7 @@ up into the main areas I used (Ruby, git, system libraries, and so on), so I
 structured the project accordingly.
 
 If you're interested in the philosophy behind why projects like these are
-awesome, you might want to [read my post on the
+awesome, you might want to [read a post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## install
@@ -34,6 +34,8 @@ which sets up a few paths that'll be different on your particular machine.
 
 You'll also want to change `git/gitconfig.symlink`, which will set you up as
 committing as Travis Berry. You probably don't want that.
+
+Most aliases are inside `oh-my-zsh/lib/aliases.zsh`
 
 ## what's inside
 
